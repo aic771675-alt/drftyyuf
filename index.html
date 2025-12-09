@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домен зарезервирован</title>
+    <meta name="description" content="Домен зарезервирован. Обращайтесь по указанному email.">
+    <meta name="keywords" content="домен, зарезервирован, reserved">
+    <meta property="og:title" content="Домен зарезервирован">
+    <meta property="og:description" content="Домен зарезервирован. Обращайтесь по указанному email.">
+    <meta name="twitter:title" content="Домен зарезервирован">
+    <meta name="twitter:description" content="Домен зарезервирован. Обращайтесь по указанному email.">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --accent-color: #ffffff;
+        }
+    }
+
+    @layer base {
+        body {
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
